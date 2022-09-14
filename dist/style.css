@@ -322,4 +322,16 @@ html {
   color: black;
 }
 
+.alert2 {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  width: 10%;
+  border-radius: 5px;
+  right:20px;
+  bottom:20px;
+  position: fixed;
+  font-family: 'Inter', sans-serif;
+}
+
 /*FIN ALERT*/
