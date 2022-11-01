@@ -179,6 +179,16 @@ html {
   border-radius: 25px;
 }
 
+.frame_excel {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: auto;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
 .frame {
   box-shadow: 1px 1px 20px black;
   background-color: #2483c5;
