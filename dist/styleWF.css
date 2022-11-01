@@ -321,6 +321,40 @@
     margin-top: 50px;
   }
 
+  .frame2_WF_red_sup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: auto;
+    border-radius: 25px;
+  }
+
+  .frame_WF_sup {
+    box-shadow: 1px 1px 20px black;
+    background-color: #2483c5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    border-radius: 25px;
+    margin-top: 50px;
+  }
+
+  .frame_WF_sup p {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 33px;
+    text-align: center;
+    color: black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
   .frame2_WF p {
     font-family: 'Inter', sans-serif;
     font-size: 15px;
@@ -375,4 +409,10 @@
     padding-top: 15px;
   }
 
+  .frame_WF_sup img{
+    border-radius: 25px;
+  }
+
   /*FIN WF*/
+
+  
