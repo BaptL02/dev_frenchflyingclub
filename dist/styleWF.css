@@ -365,9 +365,22 @@
     padding-top: 30px;
     text-align: center;
     color: black;
+    padding: 15px;
   }
 
   .frame2_WF_red p {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 33px;
+    padding-top: 30px;
+    text-align: center;
+    color: black;
+  }
+
+  .frame2_WF_red_plan p {
     font-family: 'Inter', sans-serif;
     font-size: 15px;
     font-style: normal;
@@ -411,6 +424,54 @@
 
   .frame_WF_sup img{
     border-radius: 25px;
+  }
+
+  .frame2_WF_red {
+    box-shadow: 1px 1px 20px black;
+    background-color: #2483c5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: auto;
+    border-radius: 25px;
+    margin-top: 50px;
+  }
+
+  .frame2_WF_red_plan {
+    box-shadow: 1px 1px 20px black;
+    background-color: #2483c5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    height: auto;
+    border-radius: 25px;
+    margin-top: 50px;
+  }
+
+  .frame2_WF_red_twitch {
+    box-shadow: 1px 1px 20px black;
+    background-color: #2483c5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    border-radius: 25px;
+    margin-top: 50px;
+  }
+
+  .frame2_WF_red_twitch p {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 33px;
+    padding-top: 30px;
+    text-align: center;
+    color: black;
   }
 
   /*FIN WF*/
