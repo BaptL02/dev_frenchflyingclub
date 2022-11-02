@@ -424,7 +424,10 @@
     justify-content: center;
     gap: 20px;
   }
-  
+
+  .frame2_WF_livree img{
+    border-radius: 25px;
+  }
 
   /*FIN WF*/
 
