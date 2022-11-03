@@ -182,11 +182,10 @@ html {
 .frame_excel {
   align-items: center;
   display: flex;
-  flex-direction: column;
-  width: 70%;
-  height: auto;
-  padding-top: 50px;
   margin: 0 auto;
+  padding-top: 50px;
+  width: 1171.3px;
+  aspect-ratio: 53/40;
 }
 
 .frame {
