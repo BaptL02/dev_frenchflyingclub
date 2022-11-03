@@ -332,7 +332,17 @@
     padding-top: 30px;
     text-align: center;
     color: black;
+    padding: 20px;
   }
+
+  .frame2_WF_red_txt img {
+    border-radius: 25px;
+  }
+
+  .frame2_WF_plan img {
+    border-radius: 25px;
+  }
+
 
   .frame2_WF_plan p {
     font-family: 'Inter', sans-serif;
