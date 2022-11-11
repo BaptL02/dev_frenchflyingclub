@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.site-content {
+    flex: 1;
+}
+
+html {
+    height: 100%;
+}
+
+.header {
+    background-color: #18223e;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 40px;
+    overflow: hidden;
+}
+
+.nav-links a {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    transition: transform 0.4s;
+}
+
+.nav-links a::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 100%;
+}
+
+.nav-links a:hover {
+    transform: translateY(-100%);
+}
+
+#img1 {
+    width: 6%;
+    height: auto;
+    padding-left: 10px;
+}
+
+.bas {
+    width: 100%;
+    height: 2%;
+    background-color: #18223e;
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+
+/** WF REMERCIEMENT**/
+
+/** Image anim**/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600;);
+.boite_text {
+  background-color: #2483c5;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 70%;
+  padding: 10px;
+  border-radius: 25px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.boite_text * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.boite_text:before,
+.boite_text:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  background-color: #18223e;
+  border-left: 3px solid #fff;
+  border-right: 3px solid #fff;
+  content: '';
+  opacity: 0.9;
+  z-index: 1;
+}
+
+.boite_text:before {
+  -webkit-transform: skew(45deg) translateX(-155%);
+  transform: skew(45deg) translateX(-155%);
+}
+
+.boite_text:after {
+  -webkit-transform: skew(45deg) translateX(155%);
+  transform: skew(45deg) translateX(155%);
+}
+
+.boite_text img {
+  backface-visibility: hidden;
+  max-width: 100%;
+  vertical-align: top;
+  border-radius: 25px;
+}
+
+.boite_text figcaption {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  z-index: 2;
+  -webkit-transform: translate(-50%, -50%) scale(0.5);
+  transform: translate(-50%, -50%) scale(0.5);
+  opacity: 0;
+  -webkit-box-shadow: 0 0 10px #000000;
+  box-shadow: 0 0 10px #000000;
+}
+
+.boite_text h3 {
+  background-color: white;
+  border: 2px solid #fff;
+  font-family: 'Inter', sans-serif;
+  color: black;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+
+.boite_text a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.boite_text:hover > img,
+.boite_text.hover > img {
+  opacity: 0.5;
+}
+
+.boite_text:hover:before,
+.boite_text.hover:before {
+  -webkit-transform: skew(45deg) translateX(-55%);
+  transform: skew(45deg) translateX(-55%);
+}
+
+.boite_text:hover:after,
+.boite_text.hover:after {
+  -webkit-transform: skew(45deg) translateX(55%);
+  transform: skew(45deg) translateX(55%);
+}
+
+.boite_text:hover figcaption,
+.boite_text.hover figcaption {
+  -webkit-transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+}
+
+/**Page**/
+
+.frame_rem {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  background-color: #2483c5;
+}
+
+.frame_rem t{
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 33px;
+  color: black;
+  margin-left: 20px;
+}
+
+.frame_rem p{
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 200;
+  line-height: 33px;
+  color: black;
+  padding: 20px;
+}
