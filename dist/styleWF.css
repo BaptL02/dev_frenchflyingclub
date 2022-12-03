@@ -57,12 +57,6 @@
     transform: translateY(-100%);
   }
   
-  .excel iframe {
-    width: 61%;
-    height: 100%;
-    align-self: center;
-  }
-  
   .bas {
     width: 100%;
     height: 2%;
@@ -437,6 +431,32 @@
 
   .frame2_WF_livree img{
     border-radius: 25px;
+  }
+
+  .frame_compte{
+    box-shadow: 1px 1px 20px black;
+    background-color: #2483c5;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
+    border-radius: 25px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-top: 20px;
+  }
+
+  .frame_compte{
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 33px;
+    padding-top: 30px;
+    text-align: center;
+    color: black;
   }
 
   /*FIN WF*/
