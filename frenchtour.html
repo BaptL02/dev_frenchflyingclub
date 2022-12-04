@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0ZMD04ER74"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "G-0ZMD04ER74");
+    </script>
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/styleWF.css" />
+    <title>French Flying Club</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="/asset/Flying_Club_vACC-Logo-500.png">
+</head>
+
+<body>
+
+    <style>
+        body {
+            background-image: url("asset/Banner-FFC-ASF_2.png");
+        }
+    </style>
+
+    <section cid="home" class="home-container">
+        <header class="header">
+            <img id="img1" src="/asset/Flying_Club_vACC-Logo-500.png" alt="logo" />
+            <div class="nav-links">
+                <ul class="nav-links">
+                    <li>
+                        <a href="index.html" id="club" data-text="Le Club">Le Club</a>
+                    </li>
+                    <li>
+                        <a href="stats.html" id="stats" data-text="Statistiques">Statistiques</a>
+                    </li>
+                    <li>
+                        <a href="livree.html" id="Nos livrées" data-text="Nos Livrées">Nos Livrées</a>
+                    </li>
+                    <li>
+                        <a href="doc.html" id="Documentation" data-text="Documentation">Documentation</a>
+                    </li>
+                    <li>
+                        <a href="voltige.html" id="voltige" data-text="La Voltige">La Voltige</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" id="apropos" data-text="Contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+    </section>
+
+    <p
+        style="text-align: center; font-family: 'Inter', sans-serif; font-size: 50px; margin-top: 5%; color: #2483c5; font-weight: 900;">
+        Le bonjour Tour !  <br><br></p>
+
+    <div class="frame_compte">
+        <label id="Compte"></label>
+        <script type="text/javascript">
+            var Affiche = document.getElementById("Compte");
+            function Rebour() {
+                var date1 = new Date();
+                var date2 = new Date("Dec 16, 2022 2:00:00");
+                var sec = (date2 - date1) / 1000;
+                var n = 24 * 3600;
+                if (sec > 0) {
+                    j = Math.floor(sec / n);
+                    h = Math.floor((sec - (j * n)) / 3600);
+                    mn = Math.floor((sec - ((j * n + h * 3600))) / 60);
+                    sec = Math.floor(sec - ((j * n + h * 3600 + mn * 60)));
+                    Affiche.innerHTML = "Première étape dans : " + j + " jour(s) " + h + " heure(s) " + mn + " minute(s) et " + sec + " secondes";
+                    window.status = "Temps restant : " + j + " j " + h + " h " + mn + " min " + sec + " s ";
+                }
+                else {
+                    var date1 = new Date();
+                    var date2 = new Date("Nov 12, 2022 9:55:00");
+                    var sec = (date2 - date1) / 1000;
+                    var n = 24 * 3600;
+                    if (sec > 0) {
+                        j = Math.floor(sec / n);
+                        h = Math.floor((sec - (j * n)) / 3600);
+                        mn = Math.floor((sec - ((j * n + h * 3600))) / 60);
+                        sec = Math.floor(sec - ((j * n + h * 3600 + mn * 60)));
+                        Affiche.innerHTML = "Le World Flight se termine dans : " + j + " jour(s) " + h + " heure(s) " + mn + " minute(s) et " + sec + " secondes";
+                        window.status = "Temps restant : " + j + " j " + h + " h " + mn + " min " + sec + " s ";
+                    }
+                }
+                tRebour = setTimeout("Rebour();", 1000);
+            }
+            Rebour();
+        </script>
+        <br>
+    </div>
+
+    <div class="row_WT">
+        <div class="column">
+            <div class="frame2_WF_red_txt">
+                <p>
+                    Après la réussite du WorldFlight 2022, Simfest UK ont décidés de rendre hommage aux French Flying Club en organisant un tour de france, le "Bonjour Tour" !<br><br>
+
+                    Comme dit en introduction, cette aventure est avant tout une œuvre caritative. En tant qu'équipe
+                    française, nous soutenons l'association Aviation sans frontière qui mène notamment en Afrique des
+                    vols humanitaires et en France des actions auprès de personnes porteuses de handicap ainsi que
+                    durant la crise de la Covid-19 des vols pour transporter les personnels soignants. Plus
+                    d'information sur cette magnifique association sur leur site internet : <a
+                        href="https://asf-fr.org"> ASF</a> <br><br>
+                    <img src="/asset/MEMO_ASF-1.png" alt="WTplan" width="90%" height="auto">
+
+                </p>
+            </div>
+            <a class="twitter-timeline" data-height="1000" data-width="100%" data-theme="dark"
+                href="https://twitter.com/flyinbaguettes">Tweets by FlyInBaguette</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+            <div class="frame2_WF_livree">
+                <p>
+                    La livrée spéciale:
+                    <br>
+                    Il s'agit d'un patch de la livrée de base du club. Celle-ci doit être installée avant.
+                <div class="row">
+                    <img src="/asset/WT_L.png" alt="WTL" width="45%" height="auto" />
+                    <img src="/asset/WT_L2.png" alt="WTL2" width="45%" height="auto" /><br />
+                </div>
+                <a href="https://mega.nz/folder/1aUWTRBC#wHMeTtsC6MszaZoZdAejuQ" class="button">Télécharger</a>
+                </p>
+            </div>
+            <div class="frame2_WF_red_twitch">
+                <p>Suivez-nous aussi sur Youtube :
+                </p>
+                <div class="twitch">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/8v6jtcnv8QE"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="frame2_WF_plan">
+                <p> Le planning des vols : </p><br>
+                <img src="/asset/WT_planning.png" alt="WTplan" width="90%" height="auto">
+                <br>
+            </div>
+
+            <div class="frame2_WF_red_twitch">
+                <p>Suivez-nous sur Twitch:
+                </p>
+                <div class="twitch">
+                    <iframe
+                        src="https://player.twitch.tv/?channel=zeflyingfrog&parent=www.frenchflyingclub.fr&muted=true"
+                        frameborder="0" allowfullscreen="true" scrolling="no" height="100%" ; width="100%" ;></iframe>
+                </div>
+                <div class="twitch">
+                    <iframe src="https://player.twitch.tv/?channel=radontv&parent=www.frenchflyingclub.fr&muted=true"
+                        frameborder="0" allowfullscreen="true" scrolling="no" height="100%" ; width="100%"></iframe>
+                </div>
+                <div class="twitch">
+                    <iframe src="https://player.twitch.tv/?channel=andgae&parent=www.frenchflyingclub.fr&muted=true"
+                        frameborder="0" allowfullscreen="true" scrolling="no" height="100%" ; width="100%"></iframe>
+                </div>
+                <div class="twitch">
+                    <iframe
+                        src="https://player.twitch.tv/?channel=mohammed_atc&parent=www.frenchflyingclub.fr&muted=true"
+                        frameborder="0" allowfullscreen="true" scrolling="no" height="100%" ; width="100%"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+<footer>
+    <div class=" bas">
+    </div>
+</footer>
+
+</html>
