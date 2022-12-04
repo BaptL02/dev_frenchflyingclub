@@ -3,6 +3,20 @@
 @import url(https://fonts.googleapis.com/css?family=Inter);
 /* IMPORT DE LA POLICE VIA GOOGLE FONT */
 
+/* Animation underline over nav-links */
+
+@keyframes underline {
+    0% {
+        border-bottom: 0px solid white;
+    }
+
+    100% {
+        border-bottom: 2px solid white;
+    }
+}
+
+/* Animation underline over nav-links */
+
 body{
     position: relative;
     overflow: visible;
@@ -15,6 +29,7 @@ body{
     font-family: 'Inter', Arial, sans-serif;
     background-color: #e1e1e1;
     background-repeat: repeat, repeat-x;
+    text-align: center;
 }
 
 
@@ -25,10 +40,72 @@ header{
     align-items: center;
     width: 100%;
     height: 150px;
+    background-color: #18223e;
+    background-size: 200% 200%;
+    background-position: 0 0;
+    border-radius: 20px;
 }
 
+/* NAVBAR */
+
+/* Logo FFC */
 #img1 {
     width: 6%;
     height: auto;
     padding-left: 10px;
   }
+
+  /* Logo FFC */
+
+  /* Passage sur le site anglais */
+  .langue {
+    background-color: #2483c5;
+    display: flex;
+    justify-content: center;
+    color: black;
+    border-radius: 25px;
+    flex-direction: column;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    margin: 1%;
+    padding: 0.1%;
+    width: 10%;
+    height: 60%;
+}
+
+#lang_img img {
+    width: 40%;
+    height: 80%;
+    margin-left: auto;
+    opacity: 0.95;
+    border-radius: 25px;
+    display: inherit;
+    position: relative;
+}
+
+#lang_img img:hover {
+    opacity: 0.5;
+}
+
+/* Passage sur le site anglais */
+
+/* Nav_links */
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.nav-links a:hover{
+    animation: underline 0.5s;
+    animation-fill-mode: forwards;
+}
+
