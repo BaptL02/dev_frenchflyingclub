@@ -11,10 +11,6 @@
     <script type="text/javascript" src="/js/gtag.js"></script>
     <!-- GOOGLE TRACKERS -->
 
-    <!-- JS -->
-    <script type="text/javascript" src="/js/Hide.js"></script>
-    <!-- JS -->
-
     <!-- META -->
     <meta charset="UTF-8">
     <!-- META -->
@@ -32,7 +28,7 @@
 <body>
     <header>
         <img id="img1" src="/img/Flying_Club_vACC-Logo-500.png" alt="logo" />
-        <div class="nav-links">
+        <div class="nav_links">
             <a href="#">Le Club</a>
             <a href="#">Statistiques</a>
             <a href="#">Nos Livrées</a>
@@ -44,7 +40,7 @@
         <div class="langue">
             <p>English website : </p>
             <div id="lang_img">
-            <a href="https://frenchflyingclub.org/"><img src="asset/en.png" alt="en" /></a>
+                <a href="https://frenchflyingclub.org/"><img src="asset/en.png" alt="en" /></a>
             </div>
         </div>
     </header>
@@ -52,12 +48,14 @@
     <!-- BONJOUR TOUR -->
 
     <div class="alert">
-        <span class="closebtn" onclick="Hide()">&times;</span>
         <strong>Le Bonjour Tour par Simfest UK ! </strong> <br>
+        <div id="closebtn" onclick="this.parentElement.style.display='none'">
+            &times;
+        </div>
     </div>
 
     <div class="alert2">
-        <span class="closebtn" onclick="Hide()">&times;</span>
+        <span class="closebtn" onclick="this.parentElement.style.display='none'">&times;</span>
         <strong>Le Bonjour Tour <a href="frenchtour.html">C'est ici ! </a></strong><br>
     </div>
 
@@ -93,8 +91,12 @@
                 <h2>Comment le reconnaitre ?</h2>
             </div>
             <div class="text_club">
-                <p>L'identité du club se veut simple mais plutôt explicite tout en reflétant l'esprit French Club. L'indicatif d'appel est donc French Baguette avec comme abréviation ICAO : FBT.</p>
-                <p>Les avions du club portent des livrées reflétant les symboles de notre groupe : des baguettes, des épis de blés, et des avions. Le tout est au couleur du pays : le bleu, le blanc et le rouge... avec une pointe du jaune pour le blé. Vous trouverez toutes nos livrées ainsi que leurs VMR et comment les installer <a href="livree.html">ici</a>.</p>
+                <p>L'identité du club se veut simple mais plutôt explicite tout en reflétant l'esprit French Club.
+                    L'indicatif d'appel est donc French Baguette avec comme abréviation ICAO : FBT.</p>
+                <p>Les avions du club portent des livrées reflétant les symboles de notre groupe : des baguettes, des
+                    épis de blés, et des avions. Le tout est au couleur du pays : le bleu, le blanc et le rouge... avec
+                    une pointe du jaune pour le blé. Vous trouverez toutes nos livrées ainsi que leurs VMR et comment
+                    les installer <a href="livree.html">ici</a>.</p>
             </div>
             <!-- Partie 3 -->
             <div class="part">
@@ -102,18 +104,26 @@
             </div>
             <div class="text_club">
                 <p>Rien de plus simple à vrai dire !</p>
-                <p>Chaque semaine, un jour est voté pour le vol hebdomadaire du club et des idées de vol sont proposées. Il suffit alors de nous retrouver en fréquence ou en vocal sur le discord de la <a href="https://vatsim.fr">French vACC</a> .</p>
-                <p>Et pensez bien que des vols spontanés s'organisent quasiment tous les jours entre les membres, alors pourquoi ne pas proposer le votre ?</p>
-        </div>
-        <!-- Partie 4 -->
-        <div class="part">
-            <h2>Et pour le futur ?</h2>
-    </div>
-    <div class="text_club">
-        <p>L'objectif du French Flying Club à long terme serait de mettre en place un ATO (Approved Training Organisation) indépendant (c'est-à-dire non lié à une VA) en France. En effet, à ce jour, les deux ATO françaises sont liés à une VA.</p>
-        <p>Entre temps, le club développe une nouvelle activité : la voltige aérienne en patrouille. Avec les Pains Acrobatiques Français, le club vous propose de vous initier à la voltige aérienne en patrouille en Socata TB30, un appareil de légende de l'Armée de l'Air française. N'hésitez pas à nous saluer sur le fil dédié (Patrouilles des pains acrobatiques français) sur le Discord.</p>
-       <!-- <div id="home_img">
+                <p>Chaque semaine, un jour est voté pour le vol hebdomadaire du club et des idées de vol sont proposées.
+                    Il suffit alors de nous retrouver en fréquence ou en vocal sur le discord de la <a
+                        href="https://vatsim.fr">French vACC</a> .</p>
+                <p>Et pensez bien que des vols spontanés s'organisent quasiment tous les jours entre les membres, alors
+                    pourquoi ne pas proposer le votre ?</p>
+            </div>
+            <!-- Partie 4 -->
+            <div class="part">
+                <h2>Et pour le futur ?</h2>
+            </div>
+            <div class="text_club">
+                <p>L'objectif du French Flying Club à long terme serait de mettre en place un ATO (Approved Training
+                    Organisation) indépendant (c'est-à-dire non lié à une VA) en France. En effet, à ce jour, les deux
+                    ATO françaises sont liés à une VA.</p>
+                <p>Entre temps, le club développe une nouvelle activité : la voltige aérienne en patrouille. Avec les
+                    Pains Acrobatiques Français, le club vous propose de vous initier à la voltige aérienne en
+                    patrouille en Socata TB30, un appareil de légende de l'Armée de l'Air française. N'hésitez pas à
+                    nous saluer sur le fil dédié (Patrouilles des pains acrobatiques français) sur le Discord.</p>
+                <!-- <div id="home_img">
             <img src="/img/back.png" alt="back" />
         </div> -->
-    </div>
+            </div>
 </body>
